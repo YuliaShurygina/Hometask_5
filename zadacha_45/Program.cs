@@ -4,7 +4,7 @@ int N = int.Parse(Console.ReadLine()??"0");
 double [] FillArray(int length)
 {
     double[] array = new double[length];
-    array[0] = 1;
+    array[0] = 0;
     array[1] = 1;
     for (int i = 2; i < length; i++)
     {
