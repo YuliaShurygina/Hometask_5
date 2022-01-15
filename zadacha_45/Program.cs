@@ -1,6 +1,5 @@
 ﻿// Показать числа Фибоначчи
-Console.Write("Количество чисел Фибоначчи N = ");
-int N = int.Parse(Console.ReadLine()??"0");
+
 double [] FillArray(int length)
 {
     double[] array = new double[length];
@@ -17,5 +16,8 @@ void PrintArray(double [] Array)
     for (int i = 0; i < Array.Length; i++)
        Console.Write($" {Array[i]} ");
 }
+
+Console.Write("Количество чисел Фибоначчи N = ");
+int N = int.Parse(Console.ReadLine()??"0");
 double [] Fibonacci = FillArray(N);
 PrintArray(Fibonacci);
